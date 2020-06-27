@@ -887,6 +887,8 @@ function atackPower(creep: Creep) {
     creep.transfer(factory, RESOURCE_LEMERGIUM_BAR, 16);
     creep.transfer(factory, RESOURCE_ENERGY, 8);
 
+    factory.produce(RESOURCE_ENERGY);
+    
     factory.produce(RESOURCE_PHLEGM);
 
     factory.produce(RESOURCE_BATTERY);
